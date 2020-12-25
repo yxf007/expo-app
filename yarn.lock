@@ -1061,9 +1061,9 @@
   resolved "https://registry.npm.taobao.org/@expo/config-types/download/@expo/config-types-40.0.0-beta.2.tgz#4fea4ef5654d02218b02b0b3772529a9ce5b0471"
   integrity sha1-T+pO9WVNAiGLArCzdyUpqc5bBHE=
 
-"@expo/config@^3.2.3":
+"@expo/config@3.3.22", "@expo/config@^3.2.3":
   version "3.3.22"
-  resolved "https://registry.npm.taobao.org/@expo/config/download/@expo/config-3.3.22.tgz?cache=0&sync_timestamp=1608319744931&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40expo%2Fconfig%2Fdownload%2F%40expo%2Fconfig-3.3.22.tgz#af77c98a5b4773d05467e79357ddd7950d99baf6"
+  resolved "https://registry.npm.taobao.org/@expo/config/download/@expo/config-3.3.22.tgz#af77c98a5b4773d05467e79357ddd7950d99baf6"
   integrity sha1-r3fJiltHc9BUZ+eTV93XlQ2ZuvY=
   dependencies:
     "@babel/core" "7.9.0"
@@ -1106,6 +1106,14 @@
     json5 "^1.0.1"
     lodash "^4.17.15"
     write-file-atomic "^2.3.0"
+
+"@expo/metro-config@^0.1.16":
+  version "0.1.48"
+  resolved "https://registry.npm.taobao.org/@expo/metro-config/download/@expo/metro-config-0.1.48.tgz?cache=0&sync_timestamp=1608612225469&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40expo%2Fmetro-config%2Fdownload%2F%40expo%2Fmetro-config-0.1.48.tgz#91ed86abbafdcfa833a0afcd639bfef9611e7719"
+  integrity sha1-ke2Gq7r9z6gzoK/NY5v++WEedxk=
+  dependencies:
+    "@expo/config" "3.3.22"
+    metro-react-native-babel-transformer "^0.58.0"
 
 "@expo/vector-icons@^12.0.0":
   version "12.0.1"
@@ -1198,9 +1206,9 @@
     jest-util "^25.5.0"
     slash "^3.0.0"
 
-"@jest/core@^25.5.4":
+"@jest/core@^25.2.7", "@jest/core@^25.5.4":
   version "25.5.4"
-  resolved "https://registry.npm.taobao.org/@jest/core/download/@jest/core-25.5.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40jest%2Fcore%2Fdownload%2F%40jest%2Fcore-25.5.4.tgz#3ef7412f7339210f003cdf36646bbca786efe7b4"
+  resolved "https://registry.npm.taobao.org/@jest/core/download/@jest/core-25.5.4.tgz?cache=0&sync_timestamp=1607352723882&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40jest%2Fcore%2Fdownload%2F%40jest%2Fcore-25.5.4.tgz#3ef7412f7339210f003cdf36646bbca786efe7b4"
   integrity sha1-PvdBL3M5IQ8APN82ZGu8p4bv57Q=
   dependencies:
     "@jest/console" "^25.5.0"
@@ -1350,9 +1358,9 @@
     jest-runner "^25.5.4"
     jest-runtime "^25.5.4"
 
-"@jest/transform@^25.5.1":
+"@jest/transform@^25.2.6", "@jest/transform@^25.5.1":
   version "25.5.1"
-  resolved "https://registry.npm.taobao.org/@jest/transform/download/@jest/transform-25.5.1.tgz#0469ddc17699dd2bf985db55fa0fb9309f5c2db3"
+  resolved "https://registry.npm.taobao.org/@jest/transform/download/@jest/transform-25.5.1.tgz?cache=0&sync_timestamp=1607352866659&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40jest%2Ftransform%2Fdownload%2F%40jest%2Ftransform-25.5.1.tgz#0469ddc17699dd2bf985db55fa0fb9309f5c2db3"
   integrity sha1-BGndwXaZ3Sv5hdtV+g+5MJ9cLbM=
   dependencies:
     "@babel/core" "^7.1.0"
@@ -1381,7 +1389,7 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@jest/types@^25.5.0":
+"@jest/types@^25.2.6", "@jest/types@^25.5.0":
   version "25.5.0"
   resolved "https://registry.npm.taobao.org/@jest/types/download/@jest/types-25.5.0.tgz#4d6a4793f7b9599fc3680877b856a97dbccf2a9d"
   integrity sha1-TWpHk/e5WZ/DaAh3uFapfbzPKp0=
@@ -1420,7 +1428,7 @@
     hermes-profile-transformer "^0.0.6"
     ip "^1.1.5"
 
-"@react-native-community/cli-platform-android@^4.10.0", "@react-native-community/cli-platform-android@^4.13.0", "@react-native-community/cli-platform-android@^4.7.0":
+"@react-native-community/cli-platform-android@^4.10.0", "@react-native-community/cli-platform-android@^4.13.0":
   version "4.13.0"
   resolved "https://registry.npm.taobao.org/@react-native-community/cli-platform-android/download/@react-native-community/cli-platform-android-4.13.0.tgz#922681ec82ee1aadd993598b814df1152118be02"
   integrity sha1-kiaB7ILuGq3Zk1mLgU3xFSEYvgI=
@@ -1436,7 +1444,7 @@
     slash "^3.0.0"
     xmldoc "^1.1.2"
 
-"@react-native-community/cli-platform-ios@^4.10.0", "@react-native-community/cli-platform-ios@^4.7.0":
+"@react-native-community/cli-platform-ios@^4.10.0":
   version "4.13.0"
   resolved "https://registry.npm.taobao.org/@react-native-community/cli-platform-ios/download/@react-native-community/cli-platform-ios-4.13.0.tgz#a738915c68cac86df54e578b59a1311ea62b1aef"
   integrity sha1-pziRXGjKyG31TleLWaExHqYrGu8=
@@ -1481,9 +1489,9 @@
   resolved "https://registry.npm.taobao.org/@react-native-community/cli-types/download/@react-native-community/cli-types-4.10.1.tgz#d68a2dcd1649d3b3774823c64e5e9ce55bfbe1c9"
   integrity sha1-1ootzRZJ07N3SCPGTl6c5Vv74ck=
 
-"@react-native-community/cli@^4.7.0":
+"@react-native-community/cli@^4.10.0":
   version "4.13.1"
-  resolved "https://registry.npm.taobao.org/@react-native-community/cli/download/@react-native-community/cli-4.13.1.tgz#60148723e77cafe3ae260317d6bffe91853a2d20"
+  resolved "https://registry.npm.taobao.org/@react-native-community/cli/download/@react-native-community/cli-4.13.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40react-native-community%2Fcli%2Fdownload%2F%40react-native-community%2Fcli-4.13.1.tgz#60148723e77cafe3ae260317d6bffe91853a2d20"
   integrity sha1-YBSHI+d8r+OuJgMX1r/+kYU6LSA=
   dependencies:
     "@hapi/joi" "^15.0.3"
@@ -1577,9 +1585,9 @@
   dependencies:
     type-detect "4.0.8"
 
-"@types/babel__core@^7.1.7":
+"@types/babel__core@^7.1.0", "@types/babel__core@^7.1.7":
   version "7.1.12"
-  resolved "https://registry.npm.taobao.org/@types/babel__core/download/@types/babel__core-7.1.12.tgz?cache=0&sync_timestamp=1605052467440&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fbabel__core%2Fdownload%2F%40types%2Fbabel__core-7.1.12.tgz#4d8e9e51eb265552a7e4f1ff2219ab6133bdfb2d"
+  resolved "https://registry.npm.taobao.org/@types/babel__core/download/@types/babel__core-7.1.12.tgz?cache=0&sync_timestamp=1605052813383&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fbabel__core%2Fdownload%2F%40types%2Fbabel__core-7.1.12.tgz#4d8e9e51eb265552a7e4f1ff2219ab6133bdfb2d"
   integrity sha1-TY6eUesmVVKn5PH/IhmrYTO9+y0=
   dependencies:
     "@babel/parser" "^7.1.0"
@@ -2053,6 +2061,19 @@ babel-jest@^25.2.0, babel-jest@^25.5.1:
     graceful-fs "^4.2.4"
     slash "^3.0.0"
 
+babel-jest@~25.2.6:
+  version "25.2.6"
+  resolved "https://registry.npm.taobao.org/babel-jest/download/babel-jest-25.2.6.tgz?cache=0&sync_timestamp=1607352581115&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbabel-jest%2Fdownload%2Fbabel-jest-25.2.6.tgz#fe67ff4d0db3626ca8082da8881dd5e84e07ae75"
+  integrity sha1-/mf/TQ2zYmyoCC2oiB3V6E4HrnU=
+  dependencies:
+    "@jest/transform" "^25.2.6"
+    "@jest/types" "^25.2.6"
+    "@types/babel__core" "^7.1.0"
+    babel-plugin-istanbul "^6.0.0"
+    babel-preset-jest "^25.2.6"
+    chalk "^3.0.0"
+    slash "^3.0.0"
+
 babel-plugin-dynamic-import-node@^2.3.3:
   version "2.3.3"
   resolved "https://registry.npm.taobao.org/babel-plugin-dynamic-import-node/download/babel-plugin-dynamic-import-node-2.3.3.tgz?cache=0&sync_timestamp=1589682128702&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbabel-plugin-dynamic-import-node%2Fdownload%2Fbabel-plugin-dynamic-import-node-2.3.3.tgz#84fda19c976ec5c6defef57f9427b3def66e17a3"
@@ -2162,9 +2183,9 @@ babel-preset-fbjs@^3.2.0, babel-preset-fbjs@^3.3.0:
     "@babel/plugin-transform-template-literals" "^7.0.0"
     babel-plugin-syntax-trailing-function-commas "^7.0.0-beta.0"
 
-babel-preset-jest@^25.5.0:
+babel-preset-jest@^25.2.6, babel-preset-jest@^25.5.0:
   version "25.5.0"
-  resolved "https://registry.npm.taobao.org/babel-preset-jest/download/babel-preset-jest-25.5.0.tgz?cache=0&sync_timestamp=1607352557936&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbabel-preset-jest%2Fdownload%2Fbabel-preset-jest-25.5.0.tgz#c1d7f191829487a907764c65307faa0e66590b49"
+  resolved "https://registry.npm.taobao.org/babel-preset-jest/download/babel-preset-jest-25.5.0.tgz?cache=0&sync_timestamp=1607352754394&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbabel-preset-jest%2Fdownload%2Fbabel-preset-jest-25.5.0.tgz#c1d7f191829487a907764c65307faa0e66590b49"
   integrity sha1-wdfxkYKUh6kHdkxlMH+qDmZZC0k=
   dependencies:
     babel-plugin-jest-hoist "^25.5.0"
@@ -3226,6 +3247,11 @@ expo-font@~8.4.0:
     fbjs "1.0.0"
     fontfaceobserver "^2.1.0"
 
+expo-image-loader@~1.3.0:
+  version "1.3.0"
+  resolved "https://registry.npm.taobao.org/expo-image-loader/download/expo-image-loader-1.3.0.tgz#06982a1a02f443ba6afa2cc7a4f0ccebc26a5415"
+  integrity sha1-BpgqGgL0Q7pq+izHpPDM68JqVBU=
+
 expo-keep-awake@~8.4.0:
   version "8.4.0"
   resolved "https://registry.npm.taobao.org/expo-keep-awake/download/expo-keep-awake-8.4.0.tgz#346d0988e6364c46050fef4b7829f302ef3e603d"
@@ -3279,6 +3305,15 @@ expo-status-bar@~1.0.3:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/expo-status-bar/download/expo-status-bar-1.0.3.tgz#62b4d6145680abd43ba6ecfa465f835e88bf6263"
   integrity sha1-YrTWFFaAq9Q7puz6Rl+DXoi/YmM=
+
+expo-updates@~0.4.0:
+  version "0.4.1"
+  resolved "https://registry.npm.taobao.org/expo-updates/download/expo-updates-0.4.1.tgz#74288a9950d137df62577278879c2ce61f9d6be1"
+  integrity sha1-dCiKmVDRN99iV3J4h5ws5h+da+E=
+  dependencies:
+    "@expo/metro-config" "^0.1.16"
+    fbemitter "^2.1.1"
+    uuid "^3.4.0"
 
 expo-web-browser@~8.6.0:
   version "8.6.0"
@@ -4339,9 +4374,9 @@ jest-changed-files@^25.5.0:
     execa "^3.2.0"
     throat "^5.0.0"
 
-jest-cli@^25.5.4:
+jest-cli@^25.2.7, jest-cli@^25.5.4:
   version "25.5.4"
-  resolved "https://registry.npm.taobao.org/jest-cli/download/jest-cli-25.5.4.tgz?cache=0&sync_timestamp=1607352688466&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjest-cli%2Fdownload%2Fjest-cli-25.5.4.tgz#b9f1a84d1301a92c5c217684cb79840831db9f0d"
+  resolved "https://registry.npm.taobao.org/jest-cli/download/jest-cli-25.5.4.tgz?cache=0&sync_timestamp=1607352726495&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjest-cli%2Fdownload%2Fjest-cli-25.5.4.tgz#b9f1a84d1301a92c5c217684cb79840831db9f0d"
   integrity sha1-ufGoTRMBqSxcIXaEy3mECDHbnw0=
   dependencies:
     "@jest/core" "^25.5.4"
@@ -4817,6 +4852,15 @@ jest@^25.2.0:
     "@jest/core" "^25.5.4"
     import-local "^3.0.2"
     jest-cli "^25.5.4"
+
+jest@~25.2.6:
+  version "25.2.7"
+  resolved "https://registry.npm.taobao.org/jest/download/jest-25.2.7.tgz?cache=0&sync_timestamp=1607352583190&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjest%2Fdownload%2Fjest-25.2.7.tgz#3929a5f35cdd496f7756876a206b99a94e1e09ae"
+  integrity sha1-OSml81zdSW93VodqIGuZqU4eCa4=
+  dependencies:
+    "@jest/core" "^25.2.7"
+    import-local "^3.0.2"
+    jest-cli "^25.2.7"
 
 jetifier@^1.6.2:
   version "1.6.6"
@@ -6380,6 +6424,13 @@ react-native-iphone-x-helper@^1.3.0:
   resolved "https://registry.npm.taobao.org/react-native-iphone-x-helper/download/react-native-iphone-x-helper-1.3.1.tgz?cache=0&sync_timestamp=1604828391100&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-native-iphone-x-helper%2Fdownload%2Freact-native-iphone-x-helper-1.3.1.tgz#20c603e9a0e765fd6f97396638bdeb0e5a60b010"
   integrity sha1-IMYD6aDnZf1vlzlmOL3rDlpgsBA=
 
+react-native-reanimated@~1.13.0:
+  version "1.13.2"
+  resolved "https://registry.npm.taobao.org/react-native-reanimated/download/react-native-reanimated-1.13.2.tgz?cache=0&sync_timestamp=1608293380812&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-native-reanimated%2Fdownload%2Freact-native-reanimated-1.13.2.tgz#1ae5457b24b4913d173a5a064bb28eae7783d293"
+  integrity sha1-GuVFeyS0kT0XOloGS7KOrneD0pM=
+  dependencies:
+    fbjs "^1.0.0"
+
 react-native-safe-area-context@3.1.9:
   version "3.1.9"
   resolved "https://registry.npm.taobao.org/react-native-safe-area-context/download/react-native-safe-area-context-3.1.9.tgz#48864ea976b0fa57142a2cc523e1fd3314e7247e"
@@ -6389,6 +6440,31 @@ react-native-screens@~2.15.0:
   version "2.15.0"
   resolved "https://registry.npm.taobao.org/react-native-screens/download/react-native-screens-2.15.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-native-screens%2Fdownload%2Freact-native-screens-2.15.0.tgz#9b97c1881c4fcdf304bf363f0013225901625f44"
   integrity sha1-m5fBiBxPzfMEvzY/ABMiWQFiX0Q=
+
+react-native-unimodules@~0.12.0:
+  version "0.12.0"
+  resolved "https://registry.npm.taobao.org/react-native-unimodules/download/react-native-unimodules-0.12.0.tgz#f1c92eae92212ca44078c0991c78fa4d13fda0f8"
+  integrity sha1-8ckurpIhLKRAeMCZHHj6TRP9oPg=
+  dependencies:
+    "@unimodules/core" "~6.0.0"
+    "@unimodules/react-native-adapter" "~5.7.0"
+    chalk "^2.4.2"
+    expo-asset "~8.2.1"
+    expo-constants "~9.3.0"
+    expo-file-system "~9.3.0"
+    expo-image-loader "~1.3.0"
+    expo-permissions "~10.0.0"
+    unimodules-app-loader "~1.4.0"
+    unimodules-barcode-scanner-interface "~5.4.0"
+    unimodules-camera-interface "~5.4.0"
+    unimodules-constants-interface "~5.4.0"
+    unimodules-face-detector-interface "~5.4.0"
+    unimodules-file-system-interface "~5.4.0"
+    unimodules-font-interface "~5.4.0"
+    unimodules-image-loader-interface "~5.4.0"
+    unimodules-permissions-interface "~5.4.0"
+    unimodules-sensors-interface "~5.4.0"
+    unimodules-task-manager-interface "~5.4.0"
 
 react-native-web@~0.13.12:
   version "0.13.18"
@@ -6405,14 +6481,15 @@ react-native-web@~0.13.12:
     prop-types "^15.6.0"
     react-timer-mixin "^0.13.4"
 
-"react-native@https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz":
-  version "0.63.2"
-  resolved "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz#5a545ad0b464824817ad699bb104d031d6ff6c39"
+react-native@~0.63.4:
+  version "0.63.4"
+  resolved "https://registry.npm.taobao.org/react-native/download/react-native-0.63.4.tgz?cache=0&sync_timestamp=1608312606198&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-native%2Fdownload%2Freact-native-0.63.4.tgz#2210fdd404c94a5fa6b423c6de86f8e48810ec36"
+  integrity sha1-IhD91ATJSl+mtCPG3ob45IgQ7DY=
   dependencies:
     "@babel/runtime" "^7.0.0"
-    "@react-native-community/cli" "^4.7.0"
-    "@react-native-community/cli-platform-android" "^4.7.0"
-    "@react-native-community/cli-platform-ios" "^4.7.0"
+    "@react-native-community/cli" "^4.10.0"
+    "@react-native-community/cli-platform-android" "^4.10.0"
+    "@react-native-community/cli-platform-ios" "^4.10.0"
     abort-controller "^3.0.0"
     anser "^1.4.9"
     base64-js "^1.1.2"
@@ -6451,6 +6528,16 @@ react-test-renderer@~16.11.0:
     prop-types "^15.6.2"
     react-is "^16.8.6"
     scheduler "^0.17.0"
+
+react-test-renderer@~16.13.1:
+  version "16.13.1"
+  resolved "https://registry.npm.taobao.org/react-test-renderer/download/react-test-renderer-16.13.1.tgz#de25ea358d9012606de51e012d9742e7f0deabc1"
+  integrity sha1-3iXqNY2QEmBt5R4BLZdC5/Deq8E=
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    react-is "^16.8.6"
+    scheduler "^0.19.1"
 
 react-timer-mixin@^0.13.4:
   version "0.13.4"
