@@ -4,10 +4,13 @@ import { createStackNavigator } from '@react-navigation/stack';
 import * as React from 'react';
 
 import Colors from '../constants/Colors';
+import { BottomTabParamList, TabOneParamList, TabTwoParamList } from '../types';
 import useColorScheme from '../hooks/useColorScheme';
+
 import TabOneScreen from '../screens/TabOneScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
-import { BottomTabParamList, TabOneParamList, TabTwoParamList } from '../types';
+import SubPageScreen from "../screens/tabOne/SubPageScreen";
+import { Button } from "react-native";
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
 
@@ -22,14 +25,14 @@ export default function BottomTabNavigator() {
         name="TabOne"
         component={TabOneNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color}/>,
         }}
       />
       <BottomTab.Screen
         name="TabTwo"
         component={TabTwoNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color}/>,
         }}
       />
     </BottomTab.Navigator>
@@ -39,6 +42,7 @@ export default function BottomTabNavigator() {
 // You can explore the built-in icon families and icons on the web at:
 // https://icons.expo.fyi/
 function TabBarIcon(props: { name: string; color: string }) {
+  // @ts-ignore
   return <Ionicons size={30} style={{ marginBottom: -3 }} {...props} />;
 }
 
@@ -54,6 +58,12 @@ function TabOneNavigator() {
         component={TabOneScreen}
         options={{ headerTitle: 'Tab One Title' }}
       />
+      <TabOneStack.Screen name="SubPage" component={SubPageScreen} options={{
+        title: 'SubPage',
+        headerRight: () => (
+          <Button onPress={() => alert('This is a button!')} title="Info" color="red"/>
+        ),
+      }}/>
     </TabOneStack.Navigator>
   );
 }

@@ -3,8 +3,16 @@ import { StyleSheet } from 'react-native';
 
 import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
+import { useEffect } from "react";
 
 export default function TabTwoScreen() {
+  useEffect(() => {
+    console.log('DidMount Two')
+    return () => {
+      console.log('WillUnmount Two')
+    }
+  }, [])
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab Two</Text>
